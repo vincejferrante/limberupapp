@@ -31,8 +31,8 @@ android {
         applicationId = "com.limberup.exercises"
         minSdk = 28
         targetSdk = 34
-        versionCode = 7  // 🚀 Increment this by 1
-        versionName = "1.7"  // 🚀 New version name
+        versionCode = 9  // 🚀 Increment this by 1
+        versionName = "1.9"  // 🚀 New version name
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 

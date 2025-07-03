@@ -59,8 +59,7 @@ fun WorkoutCard(workoutName: String, durationString: String, imageResId: Int, de
             .clickable {
                 navController.navigate(destination) // ✅ Correct chaining
             }
-            .size(200.dp) // ✅ continue chain
-            .padding(4.dp),
+            .size(200.dp), // ✅ continue chai
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White),
         elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
@@ -165,7 +164,7 @@ fun QuickandEasyWorkout(navController: NavHostController) {
 
 
     LazyRow(
-        modifier = Modifier.padding(8.dp),
+        modifier = Modifier.padding(0.dp),
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         items(recommendedItems) {workout ->
